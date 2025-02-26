@@ -1,6 +1,6 @@
 Estructura:
 
-/projecte-cromos/
+/projecte-cromos/  
 │── /css/                  # Estils CSS  
 │   ├── styles.php         # Fitxer CSS principal  
 │── /js/                   # Fitxers JavaScript (futura api per agregar futbolistes de https://www.thesportsdb.com/free_sports_api)  
