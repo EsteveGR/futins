@@ -1,6 +1,7 @@
 Estructura:
 
-/projecte-cromos/  
+/projecte-cromos/ 
+│── /uploads/              # Carpeta per fotos cal crear-la
 │── /css/                  # Estils CSS  
 │   ├── styles.php         # Fitxer CSS principal  
 │── /js/                   # Fitxers JavaScript (futura api per agregar futbolistes de https://www.thesportsdb.com/free_sports_api)  
@@ -17,7 +18,12 @@ Estructura:
 │── delete_player.php  # Eliminar futbolista  
 │── edit_player.php    # Editar futboliesta  
 │── list_plyaers.php   # Llista futbolista  
-│── list_team.php      # Llista equips  
+│── list_team.php      # Llista equips
 │── README.md  
 
+Carpeta Uploads:
+-----------------------------------
+Localhost:
+> sudo chown www-data:www-data /var/www/html/M12/futins/uploads
+> sudo chmod 775 /var/www/html/M12/futins/uploads
 
