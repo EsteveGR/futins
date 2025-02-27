@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 // Obtenir la llista d’equips existents
-$equips = $conn->query("SELECT * FROM equips");
+$equips = $conn->query("SELECT * FROM equips where id > 1");
 ?>
 
 <h2>Afegir Equip</h2>
