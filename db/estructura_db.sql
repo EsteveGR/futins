@@ -45,7 +45,6 @@ CREATE TABLE futbolistes (
     foto VARCHAR(255) DEFAULT NULL,
     nom VARCHAR(100) NOT NULL,
     any_neixament INT,
-    imatge VARCHAR(255) DEFAULT NULL,
     equip_id INT,
     FOREIGN KEY (equip_id) REFERENCES equips(id) ON DELETE SET NULL,
     posicio_id INT,
