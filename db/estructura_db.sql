@@ -44,7 +44,6 @@ CREATE TABLE futbolistes (
     id INT AUTO_INCREMENT PRIMARY KEY,
     foto VARCHAR(255) DEFAULT NULL,
     nom VARCHAR(100) NOT NULL,
-    equip VARCHAR(100),
     any_neixament INT,
     imatge VARCHAR(255) DEFAULT NULL,
     equip_id INT,
